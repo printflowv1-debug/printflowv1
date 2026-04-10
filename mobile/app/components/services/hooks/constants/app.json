@@ -1,1 +1,23 @@
-
+{
+  "expo": {
+    "name": "PrintFlowv1",
+    "slug": "printflowv1",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "scheme": "printflow",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "android": {
+      "package": "com.printflowv1.app",
+      "versionCode": 1,
+      "permissions": ["INTERNET"]
+    },
+    "extra": {
+      "apiUrl": "https://api.printflowv1.com"
+    }
+  }
+}
